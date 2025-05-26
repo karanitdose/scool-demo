@@ -9,7 +9,7 @@ const Footer = () => {
           <div className="space-y-4">
             <h3 className="text-2xl font-bold mb-4">
               <span className="text-pink-500">St.Boston</span>
-              <span className="text-blue-500">Edtech</span>
+              <span className="text-blue-500"> Edtech</span>
             </h3>
             <p className="text-gray-400 max-w-xs">
               Empowering students with comprehensive educational resources and tools for academic success.
