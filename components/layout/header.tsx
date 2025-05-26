@@ -84,7 +84,7 @@ const Header = () => {
         <Link href="/" className="flex items-center space-x-2">
           <span className="text-2xl font-bold">
             <span className="text-pink-500">St.Boston</span>
-            <span className="text-blue-500">Edtech</span>
+            <span className="text-blue-500"> Edtech</span>
           </span>
         </Link>
 
