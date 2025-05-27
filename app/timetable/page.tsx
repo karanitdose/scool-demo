@@ -189,45 +189,7 @@ export default function TimetablePage() {
                     ))}
                   </div>
                   
-                  {/* Time slots and courses */}
-                  <div className="relative grid grid-cols-[80px_repeat(7,1fr)] gap-2">
-                    {timeSlots.map((time, timeIndex) => (
-                      <React.Fragment key={timeIndex}>
-                        <div className="text-gray-400 text-sm text-right pr-2 py-2">
-                          {time}
-                        </div>
-                        {weekDays.map((day, dayIndex) => (
-                          <div 
-                            key={`${timeIndex}-${dayIndex}`}
-                            className="relative h-20 bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded"
-                          >
-                            {mockCourses
-                              .filter(course => 
-                                course.day === dayIndex + 1 && 
-                                parseInt(course.startTime.split(':')[0]) <= parseInt(time.split(':')[0]) && 
-                                parseInt(course.endTime.split(':')[0]) > parseInt(time.split(':')[0])
-                              )
-                              .map((course, i) => (
-                                <div 
-                                  key={i}
-                                  className={`absolute inset-1 ${course.color} p-2 rounded border-l-4 overflow-hidden hover:shadow-md transition`}
-                                >
-                                  <div className="font-medium text-sm truncate">{course.name}</div>
-                                  <div className="flex items-center text-xs mt-1">
-                                    <Clock className="h-3 w-3 mr-1" />
-                                    {course.startTime} - {course.endTime}
-                                  </div>
-                                  <div className="flex items-center text-xs mt-1 truncate">
-                                    <MapPin className="h-3 w-3 mr-1" />
-                                    {course.location}
-                                  </div>
-                                </div>
-                              ))}
-                          </div>
-                        ))}
-                      </React.Fragment>
-                    ))}
-                  </div>
+               
                 </div>
               </div>
             ) : (
