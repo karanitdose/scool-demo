@@ -56,7 +56,7 @@ const Header = () => {
         <div className="flex items-center space-x-4">
           <span className="flex items-center text-sm">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="mr-2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" x2="21" y1="14" y2="3"></line></svg>
-            aman.patel@gmail.com
+            pradeep.demo@gmail.com
           </span>
           <span className="flex items-center text-sm">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="mr-2"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg>
@@ -83,8 +83,8 @@ const Header = () => {
       <nav className="container mx-auto px-4 py-4 flex items-center justify-between">
         <Link href="/" className="flex items-center space-x-2">
           <span className="text-2xl font-bold">
-            <span className="text-pink-500">School</span>
-            <span className="text-blue-500">Demo</span>
+            <span className="text-pink-500">St.Boston</span>
+            <span className="text-blue-500">Edtech</span>
           </span>
         </Link>
 

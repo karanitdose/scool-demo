@@ -8,8 +8,8 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="space-y-4">
             <h3 className="text-2xl font-bold mb-4">
-              <span className="text-pink-500">School</span>
-              <span className="text-blue-500">Demo</span>
+              <span className="text-pink-500">St.Boston</span>
+              <span className="text-blue-500">Edtech</span>
             </h3>
             <p className="text-gray-400 max-w-xs">
               Empowering students with comprehensive educational resources and tools for academic success.
@@ -57,15 +57,15 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 mr-2 text-pink-500 shrink-0 mt-0.5" />
-                <span className="text-gray-400">Greater Noida,Sector-154, 133231</span>
+                <span className="text-gray-400">Noida,Sector-15, 230001</span>
               </li>
               <li className="flex items-center">
                 <Phone className="h-5 w-5 mr-2 text-pink-500" />
-                <span className="text-gray-400">+91 9898933222</span>
+                <span className="text-gray-400">+91 8887796224</span>
               </li>
               <li className="flex items-center">
                 <Mail className="h-5 w-5 mr-2 text-pink-500" />
-                <span className="text-gray-400">info@schooldemo.com</span>
+                <span className="text-gray-400">info@stBostonedtech.com</span>
               </li>
               <li className="flex items-center">
                 <Clock className="h-5 w-5 mr-2 text-pink-500" />
